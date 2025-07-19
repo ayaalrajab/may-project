@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+
+  <style>
+    .bagimg {
+      background-image: url(./صورة\ واتساب\ بتاريخ\ 2025-04-10\ في\ 02.00.12_311c0095.jpg);
+      width: 100%;
+      height: 500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: cover;
+    }
+
+    .img1 {
+      width: 100%;
+      height: 600px;
+    }
+    .circle1 :hover {
+      background-color: rgb(254, 254, 255);
+      color: rgb(5, 2, 2);
+      border-radius: 50%;
+      width: 6rem;
+      height: 6rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-style: solid 100px;
+      border-color: black;
+      border-width: 5px;
+    }
+    .color {
+      color: slategrey;
+    }
+    .jjj {
+      animation: slidefromleft 2s ease-in-out;
+    }
+    @keyframes slidefromleft {
+      0% {
+        transform: translateX(-10000xp);
+      }
+      50% {
+        transform: translateX(200px);
+      }
+      75% {
+        transform: translateX(-50px);
+      }
+      100% {
+        transform: translateX(0px);
+      }
+    }
+    .card :hover {
+      background-color: rgb(58, 57, 57);
+      color: white;
+    }
+    .kkk {
+      width: 400px;
+      height: 00px;
+      background-color: aquamarine;
+    }
+
+
+
+    .gallery .image-container {
+        overflow: hidden;
+        position: relative;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .gallery img {
+        width: 100%;
+        transition: transform 0.4s ease-in-out;
+        border-radius: 10px;
+      }
+      .gallery .image-container:hover  img{
+        transform: scale(1.2);
+      }
+
+  </style>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="./ındex.html">Home</a>
+          <a class="nav-link" href="./about.html">ABOUT</a>
+          <a class="nav-link" href="./blog.html">blog</a>
+          <a class="nav-link" href="./contaot.html">contact</a>
+        </div>
+      </div>
+      <div class="img-fluid"><img src="./main_logo.png" alt="" /></div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-lg-12 col-sm-12">
+        <div class="d-flex align-items-center justify-content-center">
+          <img
+            src="./صورة واتساب بتاريخ 2025-04-10 في 02.00.12_311c0095.jpg"
+            class="img-fluid img1"
+            alt="صورة"
+          />
+          <div class="position-absolute text-center">
+            <h1 class="fw-normal text-uppercase">
+              Welcome to our avada agency
+            </h1>
+            <h5 class="fw-lighter">
+              Everything you need to have in order to build a stunning website
+            </h5>
+            <button type="button" class="btn btn-light border-dark p-2 mt-2">
+              OUR WORKS
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-md-4 col-lg-4 col-sm-4">
+        <div class="">
+          <img class="img-fluid" src="./intro.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="col-md-8 col-lg-8 col-sm-8">
+        <div class="row">
+          <div class="col-md-10 col-lg-10 col-sm-10">
+            <h1>avada the best agency for ever</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              ante ex, fermentum vel libero eget interdum semper libero.
+              Curabitur egestas, arcu id tempor convallis.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-8 col-lg-8 col-sm-8 d-block">
+          <i
+            ><i class="bi bi-star-fill"></i>Vestibulum pulvinar commodo
+            malesuada.</i
+          >
+        </div>
+        <div class="col-md-8 col-lg-8 col-sm-8 d-block">
+          <i
+            ><i class="bi bi-star-fill mt-3"></i>Pellentesque id massa et ligula
+            convallis porta.</i
+          >
+        </div>
+        <div class="col-md-8 col-lg-8 col-sm-8 d-block">
+          <i
+            ><i class="bi bi-star-fill"></i>Vivamus sed nunc sed ligula rhoncus
+            sit amet eu elit.</i
+          >
+        </div>
+        <div class="col-md-8 col-lg-8 col-sm-8 d-block">
+          <i
+            ><i class="bi bi-star-fill"></i>Curabitur in ipsum vel ipsum
+            vehicula congue.</i
+          >
+        </div>
+        <button class="btn btn-dark mt-3 P-2">PURCHASE</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-md-3 justify-content-center d-flex">
+        <div class="text-center">
+          <span
+            class="rounded-circle bg-dark text-white d-inline-flex align-items-center justify-content-center mt-5 circle1"
+            style="width: 6rem; height: 6rem"
+          >
+            <i class="bi bi-apple"></i>
+          </span>
+          <h5 class="text-center">Responsive & Multi-purpose</h5>
+          <p class="text-center">
+            Class aptent taciti sociosqu ad litora torquent conubia nostra, per
+            inceptos himenaeos.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-3 justify-content-center d-flex">
+        <div class="text-center">
+          <span
+            class="rounded-circle bg-dark text-white d-inline-flex align-items-center justify-content-center mt-5 circle1"
+            style="width: 6rem; height: 6rem"
+          >
+            <i class="bi bi-house-door-fill"></i>
+          </span>
+          <h5 class="text-center">Clean & Clear</h5>
+          <p class="text-center">
+            Class aptent taciti sociosqu ad litora torquent conubia nostra, per
+            inceptos himenaeos.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 justify-content-center d-flex">
+        <div class="text-center">
+          <span
+            class="rounded-circle bg-dark text-white d-inline-flex align-items-center justify-content-center mt-5 circle1"
+            style="width: 6rem; height: 6rem"
+          >
+            <i class="bi bi-eye"></i>
+          </span>
+          <h5 class="text-center">Best UX</h5>
+          <p class="text-center">
+            Class aptent taciti sociosqu ad litora torquent conubia nostra, per
+            inceptos himenaeos.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 justify-content-center d-flex">
+        <div class="text-center">
+          <span
+            class="rounded-circle bg-dark text-white d-inline-flex align-items-center justify-content-center mt-5 text-center circle1"
+            style="width: 6rem; height: 6rem"
+          >
+            <i class="bi bi-star-fill w-250"> </i>
+          </span>
+          <h5 class="text-center">Good Feedback</h5>
+          <p class="text-center">
+            Class aptent taciti sociosqu ad litora torquent conubia nostra, per
+            inceptos himenaeos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-light">
+    <div class="row">
+      <div class="col-md-12 col-lg-12 col-sm-12">
+        <h1 class="justify-content-center d-flex mt-5 image-container">
+          show off our portfolio
+        </h1>
+        <p class="justify-content-center d-flex">
+          absolutely stunning design & functionality
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row gallery">
+        <div class="col-md-4 col-lg-4 col-sm-4">
+          <div class="justify-content-center d-flex image-container">
+            <img class="img-fluid" src="./portfolio1.jpg" alt="" />
+          </div>
+          <h5 class="mt-4 fs-5">Oliver a Note</h5>
+          <h5 class="color fw-lighter">Fashion</h5>
+        </div>
+
+        <div class="col-md-4 col-lg-4 col-sm-4">
+          <div class="justify-content-center d-flex image-container">
+            <img class="img-fluid" src="./portfolio2.jpg" alt="" />
+          </div>
+          <h5 class="mt-4 fs-5">Shift Magazine</h5>
+          <h5 class="color fw-lighter">Photography</h5>
+        </div>
+
+        <div class="col-md-4 col-lg-4 col-sm-4">
+          <div class="justify-content-center d-flex image-container">
+            <img class="img-fluid" src="./portfolio3.jpg" alt="" />
+          </div>
+          <h5 class="mt-4 fs-5">Camp Pine Tree</h5>
+          <h5 class="color fw-lighter">Web Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="row gallery">
+      <div class="col-md-12 col-lg-12 col-sm-12 mt-4"></div>
+    </div>
+    <div class="container">
+      <div class="row gallery">
+        <div class="col-md-4 col-lg-4 col-sm-4">
+          <div class="justify-content-center d-flex image-container">
+            <img class="img-fluid" src="./portfolio4.jpg" alt="" />
+          </div>
+          <h5 class="mt-4 fs-5">Oliver a Note</h5>
+          <h5 class="color fw-lighter">Fashion</h5>
+        </div>
+
+        <div class="col-md-4 col-lg-4 col-sm-4">
+          <div class="justify-content-center d-flex image-container">
+            <img class="img-fluid" src="./portfolio5.jpg" alt="" />
+          </div>
+          <h5 class="mt-4 fs-5">Shift Magazine</h5>
+          <h5 class="color fw-lighter">Photography</h5>
+        </div>
+
+        <div class="col-md-4 col-lg-4 col-sm-12  gallery">
+          <div class="justify-content-center d-flex image-container">
+            <img class="img-fluid  " src="./portfolio6.jpg" alt="" />
+          </div>
+          <h5 class="mt-4 fs-5">Camp Pine Tree</h5>
+          <h5 class="color fw-lighter">Web Design</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col-md-12 col-lg-12 col-sm-12 mt-5">
+        <div class="d-flex justify-content-center  mt-5" style="height: 300px">
+          <img
+            src="./i.webp"
+            class="img-fluid opacity-75"
+            width="100% "
+            alt="صورة"
+          />
+          <div class="position-absolute text-center">
+            <div class="mt-5 jjj">
+              <div class="">
+                <i class="bi bi-twitter text-white"></i>
+                <h2 class="text-white">
+                  Free stock photos:47 Best sites to find awesome free images
+                </h2>
+                <p class="text-white">@themewagon</p>
+                <p class="text-white">2 days ago on twitter.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-light">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="mt-5 text-uppercase justify-content-center d-flex">
+          affordable pricing
+        </h1>
+        <div class="">
+          <p class="color justify-content-center d-flex">
+            absolutely stunning design & functionality
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center d-flex">
+        <div
+          class="col-md-3 col-sm-3 col-lg-3 justify-content-center d-flex mt-5"
+        >
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h2 class="card-title text-center fs-2">Standard</h2>
+              <hr />
+              <p class="color text-center">15 Projects</p>
+              <p class="text-center color">30 GB Storage</p>
+              <p class="text-center color">Ultimate Data Transfer</p>
+              <p class="text-center color">50 GB Bandwith</p>
+              <p class="text-center color">Enhanced Security</p>
+              <p class="text-center color">Enhanced Security</p>
+              <hr />
+              <div class=" ">
+                <span class="align-top h2 d-flex justify-content-center"
+                  >$
+                  <h1 class="">25 <span class="h5">/MO</span></h1></span
+                >
+                <div class="justify-content-center d-flex">
+                  <a class="btn btn-secondary text-uppercase" href=""
+                    >get started</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-3 col-sm-3 col-lg-3 justify-content-center d-flex mt-5"
+        >
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h2 class="card-title text-center fs-2">business</h2>
+              <hr />
+              <p class="color text-center">15 Projects</p>
+              <p class="text-center color">30 GB Storage</p>
+              <p class="text-center color">Ultimate Data Transfer</p>
+              <p class="text-center color">50 GB Bandwith</p>
+              <p class="text-center color">Enhanced Security</p>
+              <p class="text-center color">Enhanced Security</p>
+              <hr />
+              <div class=" ">
+                <span class="align-top h2 d-flex justify-content-center"
+                  >$
+                  <h1 class="">35 <span class="h5">/MO</span></h1></span
+                >
+                <div class="justify-content-center d-flex">
+                  <a class="btn btn-secondary text-uppercase" href=""
+                    >get started</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-3 col-sm-3 col-lg-3 justify-content-center d-flex mt-5"
+        >
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h2 class="card-title text-center fs-2">premium</h2>
+              <hr />
+              <p class="color text-center">15 Projects</p>
+              <p class="text-center color">30 GB Storage</p>
+              <p class="text-center color">Ultimate Data Transfer</p>
+              <p class="text-center color">50 GB Bandwith</p>
+              <p class="text-center color">Enhanced Security</p>
+              <p class="text-center color">Enhanced Security</p>
+              <hr />
+              <div class=" ">
+                <span class="align-top h2 d-flex justify-content-center"
+                  >$
+                  <h1 class="">45 <span class="h5">/MO</span></h1></span
+                >
+                <div class="justify-content-center d-flex">
+                  <a class="btn btn-secondary text-uppercase" href=""
+                    >get started</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-3 col-sm-3 col-lg-3 justify-content-center d-flex mt-5"
+        >
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h2 class="card-title text-center fs-2">ultimate</h2>
+              <hr />
+              <p class="color text-center">15 Projects</p>
+              <p class="text-center color">30 GB Storage</p>
+              <p class="text-center color">Ultimate Data Transfer</p>
+              <p class="text-center color">50 GB Bandwith</p>
+              <p class="text-center color">Enhanced Security</p>
+              <p class="text-center color">Enhanced Security</p>
+              <hr />
+              <div class=" ">
+                <span class="align-top h2 d-flex justify-content-center"
+                  >$
+                  <h1 class="">55 <span class="h5">/MO</span></h1></span
+                >
+                <div class="justify-content-center d-flex">
+                  <a class="btn btn-secondary text-uppercase" href=""
+                    >get started</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 class="text-uppercase text-center mt-3">testimonials</h1>
+    <p class="text-center color">absolutely stunning design & functionality</p>
+
+    <div class="container">
+      <div class="row">
+        <div
+          class="col-md-6 col-lg-4 col-sm-4 d-flex shadow p-3"
+          style="width: 500px"
+        >
+          <img
+            class="img-fluid"
+            width="150px"
+            height="50px"
+            src="./client2.jpg"
+            alt=""
+          />
+
+          <div class="col-md-6 ms-3">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium molestiae molestias eum itaque odit dicta reiciendis
+              facilis sed veritatis nam?
+            </p>
+          </div>
+        </div>
+        <div
+          class="col-md-6 col-lg-4 col-sm-5 d-flex shadow p-3"
+          style="width: 500px"
+        >
+          <img
+            class="img-fluid"
+            width="150px"
+            height="50px"
+            src="./client1.jpg"
+            alt=""
+          />
+
+          <div class="col-md-6 ms-3">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium molestiae molestias eum itaque odit dicta reiciendis
+              facilis sed veritatis nam?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- contact -->
+
+  <div class="container-fluid bg-dark mt-5 p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h5 class="text-white mt-5">Useful Links</h5>
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <i
+                class="bi bi-chevron-double-right text-white d-block small mt-2"
+              >
+                <a href="./ındex.html" class="text-decoration-none color">home</a></i
+              >
+              <i
+                class="bi bi-chevron-double-right text-white small d-block mt-2"
+              >
+                <a href="./about.html" class="text-decoration-none color">About  </a></i
+              >
+              <i
+                class="bi bi-chevron-double-right text-white small d-block mt-2"
+              >
+                <a href="./blog.html" class="text-decoration-none color">blog</a></i
+              >
+              <i
+                class="bi bi-chevron-double-right text-white small d-block mt-2"
+              >
+                <a href="./contaot.html" class="text-decoration-none color">contant</a></i
+              >
+              <i
+                class="bi bi-chevron-double-right text-white small d-block mt-2"
+              >
+                <a href="" class="text-decoration-none color">service</a></i
+              >
+            </div>
+
+            <div class="col-md-6 col-sm-6">
+              <i
+                class="bi bi-chevron-double-right text-white d-block small mt-2"
+              >
+                <a href="" class="text-decoration-none color"
+                  >organization</a
+                ></i
+              >
+              <i
+                class="bi bi-chevron-double-right text-white small d-block mt-2"
+              >
+                <a href="" class="text-decoration-none color">media </a></i
+              >
+              <i
+                class="bi bi-chevron-double-right text-white small d-block mt-2"
+              >
+                <a href="" class="text-decoration-none color">24/7</a></i
+              >
+              <i
+                class="bi bi-chevron-double-right text-white small d-block mt-2"
+              >
+                <a href="" class="text-decoration-none color">right way</a></i
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <h5 class="text-white mt-5">Useful Links</h5>
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <img
+                class="img-fluid mt-3"
+                width="400px"
+                src="./intro.jpg"
+                alt=""
+              />
+            </div>
+            <div class="col-md-8 col-sm-6">
+              <a href="" class="text-white text-decoration-none small"
+                >A clear website gives more experinece the visitores</a
+              >
+              <h5 class="small color">Dec 12,2015</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <img
+                class="img-fluid mt-3"
+                width="400px"
+                src="./intro.jpg"
+                alt=""
+              />
+            </div>
+            <div class="col-md-8 col-sm-6">
+              <a href="" class="text-white text-decoration-none small"
+                >A clear website gives more experinece the visitores</a
+              >
+              <h5 class="small color">Dec 12,2015</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h5 class="text-white mt-5">E-News-Letter</h5>
+          <p class="color">
+            Sign up for our mailing list to get latest updates and offers
+          </p>
+          <div class="col-md-9">
+            <form action="">
+              <div class="input-group">
+                <input
+                  type="text "
+                  class="form-control"
+                  placeholder="Email address"
+                />
+                <button class="btn btn-white">
+                  <i class="bi bi-cursor-fill text-white"></i>
+                </button>
+                <h5 class="color small">We respect your privacy</h5>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h5 class="text-white mt-5">Avada Agency</h5>
+          <p class="color">
+            HUGE Website Builder is a big library of pre-designed web elements
+            which help you to create website in few minutes.
+          </p>
+          <p class="text-white">1-800-123-HELLO example@mail.com</p>
+          <div class="d-block border-r">
+            <i class="bi bi-cursor-fill bg-light p-2"></i>
+            <i class="bi bi-twitter bg-light p-2"></i>
+            <i class="bi bi-twitter-x bg-light p-2"></i>
+            <i class="bi bi-browser-chrome bg-light p-2"></i>
+            <i class="bi bi-chat-right-text-fill bg-light p-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  </body>
+</html>
